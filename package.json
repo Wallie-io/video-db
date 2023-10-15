@@ -1,0 +1,17 @@
+{
+  "name": "video-db",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/pg": "^8.10.5",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.2",
+    "pg": "^8.11.3"
+  }
+}
